@@ -1,0 +1,22 @@
+.RatingStars {
+    position: relative;
+    margin-right: 10px;
+}
+
+.RatingStars-d1 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+
+.RatingStars-d2 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.YellowStar {
+    display: flex;
+    overflow: hidden;
+}

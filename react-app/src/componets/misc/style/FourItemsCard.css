@@ -1,0 +1,82 @@
+/* @media (max-width: 450px) {
+    #FourItemsCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vw;
+        width: 90vw;
+        margin: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: white;
+        z-index: 1;
+    }
+
+    #FourItemsCard-d1 {
+        display: grid;
+        grid-template-columns: 35vw 35vw;
+        grid-template-rows: 35vw 35vw;
+        gap: 5px;
+    }
+
+    .Product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    #FourItemsCard-s1 {
+        width: 100%;
+        font-size: 8vw;
+        font-weight: 700;
+    }
+} */
+
+/* @media (min-width: 451px) { */
+    #FourItemsCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        width: 350px;
+        margin: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: white;
+        z-index: 1;
+    }
+
+    #FourItemsCard-d1 {
+        display: grid;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 170px 170px;
+        gap: 5px;
+    }
+
+    .Product {
+        height: 150px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    #FourItemsCard-s1 {
+        width: 100%;
+        font-size: x-large;
+        font-weight: 700;
+    }
+
+/* } */
+
+
+.Product-image {
+    /* height: 120px;
+    width: auto; */
+    max-width: 100%;
+    max-height: 100%;
+}
